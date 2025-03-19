@@ -1,0 +1,21 @@
+# Evitar subir dependencias
+node_modules/
+
+# Evitar archivos de compilación
+dist/
+build/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.production
+
+# Caché de React y logs
+.npm/
+.yarn/
+yarn.lock
+package-lock.json
+.DS_Store
+.vscode/
+.idea/
